@@ -1,0 +1,31 @@
+{
+    "providerId": "hostinger.com",
+    "providerName": "Hostinger",
+    "serviceId": "hosting",
+    "serviceName": "Hostinger hPanel web hosting",
+    "version": 1,
+    "logoUrl": "https://www.domainconnect.org/wp-content/uploads/2022/09/logo-horizontal.png",
+    "description": "Enables a domain to work with Hostinger hPanel",
+    "variableDescription": "ip is the IP address of the server.",
+    "syncPubKeyDomain": "dns-api.hostinger.io",
+    "records": [
+        {
+            "pointsTo": "%ip%",
+            "type": "A",
+            "host": "@",
+            "ttl": 3600
+        },
+        {
+            "pointsTo": "%ip%",
+            "type": "A",
+            "host": "ftp",
+            "ttl": 3600
+        },
+        {
+            "pointsTo": "@",
+            "type": "CNAME",
+            "host": "www",
+            "ttl": 3600
+        }
+    ]
+}
