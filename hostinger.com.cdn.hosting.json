@@ -1,0 +1,25 @@
+{
+    "providerId": "hostinger.com",
+    "providerName": "Hostinger",
+    "serviceId": "cdn",
+    "serviceName": "Hostinger CDN",
+    "version": 1,
+    "logoUrl": "https://www.domainconnect.org/wp-content/uploads/2022/09/logo-horizontal.png",
+    "description": "Enables a domain to work with Hostinger CDN",
+    "variableDescription": "domain is the domain name",
+    "syncPubKeyDomain": "dns-api.hostinger.io",
+    "records": [
+        {
+            "pointsTo": "%domain%.cdn.hostinger-cdn.com",
+            "type": "ALIAS",
+            "host": "@",
+            "ttl": 3600
+        },
+        {
+            "pointsTo": "@",
+            "type": "CNAME",
+            "host": "www",
+            "ttl": 3600
+        }
+    ]
+}
