@@ -1,0 +1,24 @@
+{
+    "providerId": "hostinger.com",
+    "providerName": "Hostinger",
+    "serviceId": "builder",
+    "serviceName": "Hostinger Website Builder",
+    "version": 1,
+    "logoUrl": "https://www.domainconnect.org/wp-content/uploads/2022/09/logo-horizontal.png",
+    "description": "Enables a domain to work with Hostinger Website Builder",
+    "syncPubKeyDomain": "dns-api.hostinger.io",
+    "records": [
+        {
+            "pointsTo": "connect.hostinger.com",
+            "type": "ALIAS",
+            "host": "@",
+            "ttl": 3600
+        },
+        {
+            "pointsTo": "connect.hostinger.com",
+            "type": "CNAME",
+            "host": "www",
+            "ttl": 3600
+        }
+    ]
+}
