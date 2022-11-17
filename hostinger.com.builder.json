@@ -7,6 +7,7 @@
     "logoUrl": "https://www.domainconnect.org/wp-content/uploads/2022/09/logo-horizontal.png",
     "description": "Enables a domain to work with Hostinger Website Builder",
     "syncPubKeyDomain": "dns-api.hostinger.io",
+    "syncRedirectDomain": "hpanel.hostinger.com",
     "records": [
         {
             "pointsTo": "connect.hostinger.com",
