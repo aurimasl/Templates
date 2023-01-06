@@ -10,7 +10,7 @@
     "syncPubKeyDomain": "dns-api.hostinger.io",
     "records": [
         {
-            "pointsTo": "%domain%.ingress.hostinger-cdn.com",
+            "pointsTo": "%domain%.cdn.hstgr.net",
             "type": "ALIAS",
             "host": "@",
             "ttl": 3600
